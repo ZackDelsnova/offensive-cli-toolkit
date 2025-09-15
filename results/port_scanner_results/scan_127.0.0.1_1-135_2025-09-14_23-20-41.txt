@@ -1,0 +1,6 @@
+scan target: 127.0.0.1 (resolved: 127.0.0.1)
+ports: 1-135 tcp timeout: 0.6 udp timeout: 1.0
+tcp open ports:
+  135/tcp  ()
+    banner: <no-banner / recv-timed-out>
+upd result (best-effort):
