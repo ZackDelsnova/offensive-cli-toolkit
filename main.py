@@ -1,14 +1,14 @@
 import packet_sniffer
 import port_scanner
+import hash_cracker
 
 def show_menu():
     print("===== Offensive CLI Cybersecurity Toolkit =====")
     print("0. Exit")
     print("1. Packet sniffer")
     print("2. Port and vulnerbility scanner")
-    print("3. Brute force (demo)")
-    print("4. Hash Cracker")
-    print("5. Subdomain enumerator")
+    print("3. Hash Cracker")
+    print("4. Subdomain enumerator")
 
 def main():
     while True:
@@ -21,10 +21,8 @@ def main():
         elif choice == 2:
             port_scanner.start_scan()
         elif choice == 3:
-            pass
+            hash_cracker.start()
         elif choice == 4:
-            pass
-        elif choice == 5:
             pass
         else:
             print("invalid choice")
