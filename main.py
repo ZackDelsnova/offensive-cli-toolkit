@@ -1,6 +1,7 @@
 import packet_sniffer
 import port_scanner
 import hash_cracker
+import subdomain_enumerator
 
 def show_menu():
     print("===== Offensive CLI Cybersecurity Toolkit =====")
@@ -23,7 +24,7 @@ def main():
         elif choice == 3:
             hash_cracker.start()
         elif choice == 4:
-            pass
+            subdomain_enumerator.start()
         else:
             print("invalid choice")
         

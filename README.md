@@ -6,6 +6,13 @@
     <https://nmap.org/npcap/>
 - Run as Administartor
 
+## Run
+
+``` bash
+    pip install -r requirements.txt   
+    python main.py
+```
+
 ## to run hash cracker
 
 1. make the wordlist (a curated wordlist for this or skip this if u have the classic rockyou.txt)
@@ -25,3 +32,4 @@
 - packet sniffer - 6 hrs
 - port and vulnerbility scanner - 3 hrs
 - hash cracker + making hashes and wordlist - 5hrs
+- subdomain enumerator - 4 hrs
